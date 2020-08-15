@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "to register a user",
+        "description": "",
+        "id": "to-register-and-send-mail-after-successful-validation-of-profile;to-register-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18295809600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the website is loaded",
+            "match": {
+              "location": "RegistrationStep.the_website_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7354968800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters mandatory details",
+            "match": {
+              "location": "RegistrationStep.user_enters_mandatory_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2853692400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clicking on the Register button",
+            "match": {
+              "location": "RegistrationStep.clicking_on_the_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4037548200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "display the valid message if registered successfully",
+            "match": {
+              "location": "RegistrationStep.display_the_valid_message_if_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@registration"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "to validate name and email",
+        "description": "",
+        "id": "to-register-and-send-mail-after-successful-validation-of-profile;to-validate-name-and-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user registered successfully",
+            "match": {
+              "location": "RegistrationStep.user_registered_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3149801100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicked on profile dropdown at top right corner",
+            "match": {
+              "location": "RegistrationStep.clicked_on_profile_dropdown_at_top_right_corner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "display profile details such as name and email",
+            "match": {
+              "location": "RegistrationStep.display_profile_details_such_as_name_and_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15502625100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate name and email of the user",
+            "match": {
+              "location": "RegistrationStep.validate_name_and_email_of_the_user()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@profilevalidation"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "to check user is able to send email",
+        "description": "",
+        "id": "to-register-and-send-mail-after-successful-validation-of-profile;to-check-user-is-able-to-send-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631316900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user wants to send a message to other user",
+            "match": {
+              "location": "RegistrationStep.user_wants_to_send_a_message_to_other_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 622488000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "subject is entered",
+            "match": {
+              "location": "RegistrationStep.subject_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11829235300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "message should be entered",
+            "match": {
+              "location": "RegistrationStep.message_should_be_entered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2368041800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "mail should be sent",
+            "match": {
+              "location": "RegistrationStep.mail_should_be_sent()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@email"
+          }
+        ]
+      }
+    ],
+    "name": "to register and send mail after successful validation of profile",
+    "description": "",
+    "id": "to-register-and-send-mail-after-successful-validation-of-profile",
+    "keyword": "Feature",
+    "uri": "casestudy2.feature"
+  }
+]
